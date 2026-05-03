@@ -59,6 +59,9 @@ GROUP_CHAT_ID = os.environ.get("GROUP_CHAT_ID", "YOUR_GROUP_CHAT_ID_HERE")
 
 # Numeric Telegram user IDs of leaders/admins.
 # Get yours by messaging @userinfobot on Telegram.
+ADMIN_IDS = {
+    8097004980,
+}
 _raw_ids = os.environ.get("ADMIN_IDS", "")
 ADMIN_IDS = set(int(i.strip()) for i in _raw_ids.split(",") if i.strip())
 
