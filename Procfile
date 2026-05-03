@@ -1,0 +1,1 @@
+worker: python focus_jit_bot.py
